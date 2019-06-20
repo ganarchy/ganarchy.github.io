@@ -19,31 +19,25 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <https://www.gnu.org/licenses/>.
         -->
-        <title>GAnarchy on ganarchy.github.io</title>
-        <meta name="description" content="GAnarchy on ganarchy.github.io" />
+        <title>{{ ganarchy.title|e }}</title>
+        <meta name="description" content="{{ ganarchy.title|e }}" />
         <!--if your browser doesn't like the following, use a different browser.-->
         <script type="application/javascript" src="/index.js"></script>
     </head>
     <body>
-        <h1>GAnarchy on ganarchy.github.io</h1>
-        <p>This is GAnarchy on ganarchy.github.io. Currently tracking the following projects:</p>
+        <h1>{{ ganarchy.title|e }}</h1>
+        <p>This is {{ ganarchy.title|e }}. Currently tracking the following projects:</p>
         <ul>
-        <li><a href="/project/125baefaade696119262cd7ae5127c4265a59edc">Anarki</a>: Community fork of the Arc programming language, a dialect of Lisp with
-cleanly designed core operators designed for exploratory programming,
-particularly building web apps.
-</li>
-        <li><a href="/project/385e734a52e13949a7a5c71827f6de920dbfea43">GAnarchy</a>: A Project Page Generator written in Python, focused on giving forks of a
-project the same visibility as the original repo.
-</li>
-        <li><a href="/project/7597bdc9d42badc332ecd57ab81e71c41fa2b595">Rust hexchat-plugin</a>: Rust crate that allows one to write hexchat plugins in Rust.
-</li>
+        {% for project in ganarchy.projects -%}
+            <li><a href="/project/{{ project.commit|e }}">{{ project.title|e }}</a>: {{ project.description|e }}</li>
+        {% endfor -%}
         </ul>
         <p>If you'd like to see another project here, or want your repo tracked in one of these project pages, open an issue on github:
         <a href="https://github.com/ganarchy/ganarchy.github.io/issues">https://github.com/ganarchy/ganarchy.github.io/issues</a>.<br>If you'd
         like to see your project here, you also need to create a "project commit", see <a href="https://cybre.tech/SoniEx2/ganarchy#usage">the GAnarchy README</a> for details.</p>
         <p>Powered by <a href="https://ganarchy.autistic.space/">GAnarchy</a>. AGPLv3-licensed. <a href="https://cybre.tech/SoniEx2/ganarchy">Source Code</a>.</p>
         <p>
-            <a href="https://ganarchy.github.io/" onclick="event.preventDefault(); navigator.registerProtocolHandler('web+ganarchy', this.href + '?url=%s', 'GAnarchy');">Register web+ganarchy: URI handler</a>.
+            <a href="{{ ganarchy.base_url|e }}" onclick="event.preventDefault(); navigator.registerProtocolHandler('web+ganarchy', this.href + '?url=%s', 'GAnarchy');">Register web+ganarchy: URI handler</a>.
         </p>
     </body>
 </html>
