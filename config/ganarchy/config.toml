@@ -1,0 +1,4 @@
+base_url = "https://ganarchy.github.io/"
+
+[projects.125baefaade696119262cd7ae5127c4265a59edc]
+"https://github.com/arclanguage/anarki".HEAD = { active=true }

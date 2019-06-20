@@ -1,0 +1,8 @@
+#!/bin/sh
+# Example fetch script, using wget
+
+i=0
+while IFS= read -r target; do
+	wget --quiet -c -O "$(printf %04d $i)".toml "$target"
+	i=$((i+1))
+done < targets.txt
