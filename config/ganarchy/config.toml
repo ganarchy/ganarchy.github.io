@@ -2,3 +2,6 @@ base_url = "https://ganarchy.github.io/"
 
 [projects.125baefaade696119262cd7ae5127c4265a59edc]
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
+
+[projects.385e734a52e13949a7a5c71827f6de920dbfea43]
+"https://soniex2.autistic.space/git-repos/ganarchy.git".HEAD = { active=true }
