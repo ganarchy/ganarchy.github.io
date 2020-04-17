@@ -10,3 +10,6 @@
 [projects.125baefaade696119262cd7ae5127c4265a59edc]
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
 
+[projects.0f74bd87a23b515b45da7e6f5d9cc82380443dab]
+"https://soniex2.autistic.space/git-repos/abdl.git".HEAD = { active=true }
+
