@@ -1,8 +1,0 @@
-#!/bin/sh
-# Example fetch script, using curl
-
-i=0
-while IFS= read -r target; do
-	curl -s -o "$(printf %04d $i)".toml "$target"
-	i=$((i+1))
-done < targets.txt
