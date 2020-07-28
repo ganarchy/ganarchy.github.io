@@ -1,7 +1,7 @@
 base_url = "https://ganarchy.github.io/"
 
 [repo_list_srcs]
-"https://ganarchy.autistic.space/index.toml" = { active=false }
+"https://ganarchy.autistic.space/index.toml" = { active=true }
 
 [projects.125baefaade696119262cd7ae5127c4265a59edc]
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
