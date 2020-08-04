@@ -6,8 +6,8 @@
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
 
 [projects.385e734a52e13949a7a5c71827f6de920dbfea43]
-"https://github.com/ganarchy/GAnarchy".HEAD = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git".HEAD = { active=true }
+"https://github.com/ganarchy/GAnarchy".HEAD = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/new-config" = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/run" = { active=true }
 "https://cybre.tech/SoniEx2/ganarchy".HEAD = { active=true }
