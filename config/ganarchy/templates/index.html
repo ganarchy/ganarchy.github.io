@@ -29,7 +29,7 @@
         <p>This is {{ ganarchy.title|e }}. Currently tracking the following projects:</p>
         <ul>
         {% for project in ganarchy.projects -%}
-            <li><a href="/project/{{ project.commit|e }}">{{ project.title|e }}</a>: {{ project.description|e }}</li>
+            <li><a href="{{ (ganarchy.base_url[:-1] + ganarchy.base_url[-1:].rsplit('/',1)[0])|e }}/project/{{ project.commit|e }}">{{ project.title|e }}</a>: {{ project.description|e }}</li>
         {% endfor -%}
         </ul>
 	<p>Consider visiting <a href="https://www.reddit.com/r/GAnarchy/">https://www.reddit.com/r/GAnarchy/</a> to learn more and talk about GAnarchy.</p>
