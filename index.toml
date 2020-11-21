@@ -22,5 +22,8 @@
 [projects.cc1081c3b8a81d2311bff299da2769da4065b394]
 "https://soniex2.autistic.space/git-repos/hexart.git".HEAD = { active=true }
 
+[projects.e1ee4fc7c093b7c983de16f314789154e9ef96df]
+"https://github.com/SoniEx2/ClassiCube-Client".HEAD = { active=true }
+
 [projects.fd787573517e9b8bfe543d21b3daf32568f81faf]
 "https://soniex2.autistic.space/git-repos/tdp.git".HEAD = { active=true }

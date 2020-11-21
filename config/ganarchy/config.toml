@@ -8,3 +8,6 @@ base_url = "https://ganarchy.github.io/"
 
 [projects.385e734a52e13949a7a5c71827f6de920dbfea43]
 "https://soniex2.autistic.space/git-repos/ganarchy.git".HEAD = { active=true }
+
+[projects.e1ee4fc7c093b7c983de16f314789154e9ef96df]
+"https://github.com/SoniEx2/ClassiCube-Client".HEAD = { active=true }
