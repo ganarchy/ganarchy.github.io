@@ -15,15 +15,8 @@
 [projects.7597bdc9d42badc332ecd57ab81e71c41fa2b595]
 "https://cybre.tech/SoniEx2/rust.hexchat.hexchat-plugin".HEAD = { active=true }
 
-[projects.b62bc3cb8ba8783e4de05033f6564e3ca528ed63]
-"https://github.com/SoniEx2/Converter-Microwave".HEAD = { active=true }
-"https://soniex2.autistic.space/git-repos/converter-microwave.git".HEAD = { active=true }
-
 [projects.cc1081c3b8a81d2311bff299da2769da4065b394]
 "https://soniex2.autistic.space/git-repos/hexart.git".HEAD = { active=true }
 
 [projects.e1ee4fc7c093b7c983de16f314789154e9ef96df]
 "https://github.com/SoniEx2/ClassiCube-Client".HEAD = { active=true }
-
-[projects.fd787573517e9b8bfe543d21b3daf32568f81faf]
-"https://soniex2.autistic.space/git-repos/tdp.git".HEAD = { active=true }
