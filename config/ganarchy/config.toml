@@ -11,3 +11,6 @@ base_url = "https://ganarchy.github.io/"
 
 [projects.e1ee4fc7c093b7c983de16f314789154e9ef96df]
 "https://github.com/SoniEx2/ClassiCube-Client".HEAD = { active=true }
+
+[projects.c0b4a8a326a320ac33c5d9d6bac2f7ea7eb703ce]
+"https://ipfs.io/ipfs/QmUN3hj69aGMeGyTQuG3GZdTHkaCaf2fAfWGeNSyyNjiVC".HEAD = { active=true }

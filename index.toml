@@ -15,6 +15,9 @@
 [projects.7597bdc9d42badc332ecd57ab81e71c41fa2b595]
 "https://cybre.tech/SoniEx2/rust.hexchat.hexchat-plugin".HEAD = { active=true }
 
+[projects.c0b4a8a326a320ac33c5d9d6bac2f7ea7eb703ce]
+"https://ipfs.io/ipfs/QmUN3hj69aGMeGyTQuG3GZdTHkaCaf2fAfWGeNSyyNjiVC".HEAD = { active=true }
+
 [projects.cc1081c3b8a81d2311bff299da2769da4065b394]
 "https://soniex2.autistic.space/git-repos/hexart.git".HEAD = { active=true }
 
