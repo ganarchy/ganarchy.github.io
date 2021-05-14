@@ -14,3 +14,6 @@ base_url = "https://ganarchy.github.io/"
 
 [projects.c0b4a8a326a320ac33c5d9d6bac2f7ea7eb703ce]
 "https://ipfs.io/ipfs/QmUN3hj69aGMeGyTQuG3GZdTHkaCaf2fAfWGeNSyyNjiVC".HEAD = { active=true }
+
+[projects.d6a17fdd92b690e2584d743c153b45ba4d684d30]
+"https://github.com/SoniEx2/cw2-hexchat".HEAD = { active=true }
