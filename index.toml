@@ -5,6 +5,9 @@
 [projects.125baefaade696119262cd7ae5127c4265a59edc]
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
 
+[projects.370aa8f9140476dd39d26831494b2de737edb359]
+"https://soniex2.autistic.space/git-repos/testserver-rs.git".HEAD = { active=true }
+
 [projects.385e734a52e13949a7a5c71827f6de920dbfea43]
 "https://github.com/ganarchy/GAnarchy".HEAD = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git".HEAD = { active=true }
@@ -17,8 +20,8 @@
 "https://cybre.tech/SoniEx2/rust.hexchat.hexchat-plugin".HEAD = { active=true }
 
 [projects.c0b4a8a326a320ac33c5d9d6bac2f7ea7eb703ce]
-"https://soniex2.autistic.space/git-repos/dfu.git".HEAD = { active=true }
 "https://ipfs.io/ipfs/QmUN3hj69aGMeGyTQuG3GZdTHkaCaf2fAfWGeNSyyNjiVC".HEAD = { active=true }
+"https://soniex2.autistic.space/git-repos/dfu.git".HEAD = { active=true }
 
 [projects.cc1081c3b8a81d2311bff299da2769da4065b394]
 "https://soniex2.autistic.space/git-repos/hexart.git".HEAD = { active=true }
