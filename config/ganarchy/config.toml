@@ -17,3 +17,9 @@ base_url = "https://ganarchy.github.io/"
 
 [projects.d6a17fdd92b690e2584d743c153b45ba4d684d30]
 "https://github.com/SoniEx2/cw2-hexchat".HEAD = { active=true }
+
+[projects.886b8bd893b8f0186d508d8ae295a6974829bdc7]
+"https://soniex2.autistic.space/git-repos/htmlgdump.git".HEAD = { active=true }
+
+[projects.dd26b5f3aa8108c3026080c734878e541c4cd05c]
+"https://soniex2.autistic.space/git-repos/uwumode.git".HEAD = { active=true }
