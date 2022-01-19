@@ -13,11 +13,12 @@
 "https://soniex2.autistic.space/git-repos/ganarchy.git".HEAD = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/new-config" = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/run" = { active=true }
-"https://cybre.tech/SoniEx2/ganarchy".HEAD = { active=true }
+
+[projects.5e15900d53124acd654f90a392b72b85ced6df3d]
+"https://soniex2.autistic.space/git-repos/bashsession.git".HEAD = { active=true }
 
 [projects.7597bdc9d42badc332ecd57ab81e71c41fa2b595]
 "https://soniex2.autistic.space/git-repos/hexchat-plugin.git".HEAD = { active=true }
-"https://cybre.tech/SoniEx2/rust.hexchat.hexchat-plugin".HEAD = { active=true }
 
 [projects.886b8bd893b8f0186d508d8ae295a6974829bdc7]
 "https://soniex2.autistic.space/git-repos/htmlgdump.git".HEAD = { active=true }
