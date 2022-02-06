@@ -14,6 +14,9 @@
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/new-config" = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/run" = { active=true }
 
+[projects.55ce1087e87b48384abf90bbedb5da03b42f6996]
+"https://soniex2.autistic.space/git-repos/anycast.git".HEAD = { active=true }
+
 [projects.5e15900d53124acd654f90a392b72b85ced6df3d]
 "https://soniex2.autistic.space/git-repos/bashsession.git".HEAD = { active=true }
 

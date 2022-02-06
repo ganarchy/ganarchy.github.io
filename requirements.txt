@@ -1,3 +1,3 @@
 gan0f74bd87a23b515b45da7e6f5d9cc82380443dab @ git+https://soniex2.autistic.space/git-repos/abdl.git@ff3628c36eab5ec19ab850e9126a951f5c203568
-gan385e734a52e13949a7a5c71827f6de920dbfea43 @ git+https://soniex2.autistic.space/git-repos/ganarchy.git@a51c18000cdf4e623d4a46246bcc6d5b1f47e917
+gan385e734a52e13949a7a5c71827f6de920dbfea43 @ git+https://soniex2.autistic.space/git-repos/ganarchy.git@adcef364d90c60b2fcb587257daf40a7e8446ddf
 
