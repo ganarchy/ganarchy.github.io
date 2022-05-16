@@ -19,29 +19,31 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <https://www.gnu.org/licenses/>.
         -->
-        <title>LtPtr</title>
-        <meta name="description" content="&#34;Checked&#34; raw pointers for Rust.
-" />
+        <title>{{ project_title|e }}</title>
+        {% if project_desc %}<meta name="description" content="{{ project_desc|e }}" />{% endif %}
         <style type="text/css">.branchname { color: #808080; font-style: italic; }</style>
     </head>
     <body>
-        <h1>LtPtr</h1>
-        <p>Tracking <span id="project_commit"><a href="web+ganarchy:f21e8e1bea1e93aaa22e4d6baa3a490140977617">f21e8e1bea1e93aaa22e4d6baa3a490140977617</a></span></p>
-        <div id="project_body"><p>[Project] LtPtr</p><p>&#34;Checked&#34; raw pointers for Rust.
-</p></div>
+        <h1>{{ project_title|e }}</h1>
+        <p>Tracking <span id="project_commit"><a href="web+ganarchy:{{ project_commit }}">{{ project_commit }}</a></span></p>
+        <div id="project_body"><p>{{ project_body|e|replace("\n\n", "</p><p>") }}</p></div>
         <h2>Pinned repos</h2>
         <ul>
+        {% for url, msg, img, branch in pinned_repos -%}
+            <li><a href="{{ url|e }}">{{ url|e }}</a>{% if branch %} <span class="branchname">[{{ branch|e }}]</span>{% endif %}: {{ msg|e }}</li>
+        {% endfor -%}
         </ul>
         <h2>Additional repos</h2>
         <ul>
-        <li><a href="https://soniex2.autistic.space/git-repos/ltptr.git">https://soniex2.autistic.space/git-repos/ltptr.git</a>: Attempt to improve crate docs
-</li>
+        {% for url, msg, img, branch in unpinned_repos -%}
+            <li><a href="{{ url|e }}">{{ url|e }}</a>{% if branch %} <span class="branchname">[{{ branch|e }}]</span>{% endif %}: {{ msg|e }}</li>
+        {% endfor -%}
         </ul>
 	<p>If you'd like to submit issues or bugfixes for this project, open an issue on the following github: <a href="https://github.com/ganarchy/ganarchy.github.io/issues">https://github.com/ganarchy/ganarchy.github.io/issues</a>.</p>
         <p>Powered by <a href="https://ganarchy.autistic.space/">GAnarchy</a>. AGPLv3-licensed. <a href="https://cybre.tech/SoniEx2/ganarchy">Source Code</a>.</p>
         <p>
-            <a href="https://ganarchy.github.io/">Main page</a>.
-            <a href="https://ganarchy.github.io/" onclick="event.preventDefault(); navigator.registerProtocolHandler('web+ganarchy', this.href + '?url=%s', 'GAnarchy');">Register web+ganarchy: URI handler</a>
+            <a href="{{ base_url|e }}">Main page</a>.
+            <a href="{{ base_url|e }}" onclick="event.preventDefault(); navigator.registerProtocolHandler('web+ganarchy', this.href + '?url=%s', 'GAnarchy');">Register web+ganarchy: URI handler</a>
             (Makes navigating between GAnarchy instances easier).
         </p>
     </body>
