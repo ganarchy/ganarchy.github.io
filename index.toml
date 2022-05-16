@@ -5,10 +5,14 @@
 [projects.125baefaade696119262cd7ae5127c4265a59edc]
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
 
+[projects.207026ae5e35da096b8110afe1ba2973a0e54fdb]
+"https://soniex2.autistic.space/git-repos/hexchat-unsafe-plugin.git".HEAD = { active=true }
+
 [projects.370aa8f9140476dd39d26831494b2de737edb359]
 "https://soniex2.autistic.space/git-repos/testserver-rs.git".HEAD = { active=true }
 
 [projects.385e734a52e13949a7a5c71827f6de920dbfea43]
+"https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/denazify" = { active=true }
 "https://github.com/ganarchy/GAnarchy".HEAD = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git".HEAD = { active=true }
 "https://soniex2.autistic.space/git-repos/ganarchy.git"."feature/new-config" = { active=true }
@@ -41,3 +45,6 @@
 
 [projects.e1ee4fc7c093b7c983de16f314789154e9ef96df]
 "https://github.com/SoniEx2/ClassiCube-Client".HEAD = { active=true }
+
+[projects.f21e8e1bea1e93aaa22e4d6baa3a490140977617]
+"https://soniex2.autistic.space/git-repos/ltptr.git".HEAD = { active=true }
