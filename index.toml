@@ -8,6 +8,12 @@
 [projects.207026ae5e35da096b8110afe1ba2973a0e54fdb]
 "https://soniex2.autistic.space/git-repos/hexchat-unsafe-plugin.git".HEAD = { active=true }
 
+[projects.2d0b363fe3179087de59d9ef4a2d14af21d89071]
+"https://soniex2.autistic.space/git-repos/chewstuff.git".HEAD = { active=true }
+
+[projects.36f45c9ec3d63c656e87c7cdfcc08bc1ac59a806]
+"https://soniex2.autistic.space/git-repos/chatprivacy.git".HEAD = { active=true }
+
 [projects.370aa8f9140476dd39d26831494b2de737edb359]
 "https://soniex2.autistic.space/git-repos/testserver-rs.git".HEAD = { active=true }
 
@@ -30,11 +36,20 @@
 [projects.886b8bd893b8f0186d508d8ae295a6974829bdc7]
 "https://soniex2.autistic.space/git-repos/htmlgdump.git".HEAD = { active=true }
 
+[projects.a8fb5087f79eafe312db270082c052c427b208c2]
+"https://soniex2.autistic.space/git-repos/mmorfc.git".HEAD = { active=true }
+
+[projects.bfb981cd49a6bbcd15482dceeb4ab121c0408157]
+"https://soniex2.autistic.space/git-repos/friendcode.git".HEAD = { active=true }
+
 [projects.c0b4a8a326a320ac33c5d9d6bac2f7ea7eb703ce]
 "https://soniex2.autistic.space/git-repos/dfu.git".HEAD = { active=true }
 
 [projects.cc1081c3b8a81d2311bff299da2769da4065b394]
 "https://soniex2.autistic.space/git-repos/hexart.git".HEAD = { active=true }
+
+[projects.cc8ab1441fd398d23454c149c74bd5a2304eb566]
+"https://soniex2.autistic.space/git-repos/selfref.git".HEAD = { active=true }
 
 [projects.d6a17fdd92b690e2584d743c153b45ba4d684d30]
 "https://soniex2.autistic.space/git-repos/cw2-hexchat.git".HEAD = { active=true }
