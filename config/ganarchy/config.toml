@@ -24,3 +24,6 @@ base_url = "https://ganarchy.github.io/"
 
 [projects.dd26b5f3aa8108c3026080c734878e541c4cd05c]
 "https://soniex2.autistic.space/git-repos/uwumode.git".HEAD = { active=true }
+
+[projects.1cf233f31ba84dba2b7cbcde6c160b0fdf4141ac]
+"https://github.com/diracdeltas/tweets".HEAD = { active=true }

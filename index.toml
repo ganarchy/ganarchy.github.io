@@ -5,6 +5,9 @@
 [projects.125baefaade696119262cd7ae5127c4265a59edc]
 "https://github.com/arclanguage/anarki".HEAD = { active=true }
 
+[projects.1cf233f31ba84dba2b7cbcde6c160b0fdf4141ac]
+"https://github.com/diracdeltas/tweets".HEAD = { active=true }
+
 [projects.207026ae5e35da096b8110afe1ba2973a0e54fdb]
 "https://soniex2.autistic.space/git-repos/hexchat-unsafe-plugin.git".HEAD = { active=true }
 
