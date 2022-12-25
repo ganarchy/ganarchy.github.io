@@ -25,7 +25,7 @@
     </head>
     <body>
         <h1>{{ project_title|e }}</h1>
-        <p>Tracking <span id="project_commit"><a href="web+ganarchy:{{ project_commit }}">{{ project_commit }}</a></span></p>
+        <p>Tracking <span id="project_commit"><a href="https://fedi-to.net/go?h={{ ganarchy.fedito }}&target=web%2Bganarchy:{{ project_commit }}">{{ project_commit }}</a></span></p>
         <div id="project_body"><p>{{ project_body|e|replace("\n\n", "</p><p>") }}</p></div>
         <h2>Pinned repos</h2>
         <ul>
