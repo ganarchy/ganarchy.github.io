@@ -44,7 +44,11 @@
         <p>Powered by <a href="https://ganarchy.autistic.space/">GAnarchy</a>. AGPLv3-licensed. <a href="https://cybre.tech/SoniEx2/ganarchy">Source Code</a>.</p>
         <p>
             <a href="{{ base_url|e }}">Main page</a>.
+            {% if ganarchy.fedito != 0 -%}
+            <a href="https://fedi-to.net/register?h={{ ganarchy.fedito }}&protocol=web%2Bganarchy">Register web+ganarchy: URI handler (via Fedi-To)</a>
+            {% else -%}
             <a href="{{ base_url|e }}" onclick="event.preventDefault(); navigator.registerProtocolHandler('web+ganarchy', this.href + '?url=%s', 'GAnarchy');">Register web+ganarchy: URI handler</a>
+            {% endif -%}
             (Makes navigating between GAnarchy instances easier).
         </p>
     </body>
