@@ -112,9 +112,10 @@
 "https://github.com/JerukPurut404/tweets".HEAD = { active=true }
 "https://github.com/TheBorinator/tweets".HEAD = { active=true }
 "https://github.com/dai/tweets".HEAD = { active=true }
+"https://github.com/mullikine/tweets".HEAD = { active=true }
+"https://github.com/teaguehannam/tweets".HEAD = { active=true }
 "https://github.com/houhoulis/tweets".HEAD = { active=true }
 "https://github.com/claydugo/tweets".HEAD = { active=true }
-"https://github.com/teaguehannam/tweets".HEAD = { active=true }
 "https://github.com/akherxn/tweets".HEAD = { active=true }
 "https://github.com/schnow265/tweets".HEAD = { active=true }
 "https://github.com/diracdeltas/tweets".HEAD = { active=true }
@@ -171,7 +172,6 @@
 "https://github.com/me-mariosteve/tweets".HEAD = { active=true }
 "https://github.com/monophylos/tweets".HEAD = { active=true }
 "https://github.com/montoulieu/tweets".HEAD = { active=true }
-"https://github.com/mullikine/tweets".HEAD = { active=true }
 "https://github.com/noncombatant/tweets".HEAD = { active=true }
 "https://github.com/ob6160/tweets".HEAD = { active=true }
 "https://github.com/openfnord/tweets".HEAD = { active=true }
